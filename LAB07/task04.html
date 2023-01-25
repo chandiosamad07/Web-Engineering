@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <title>task 4 </title>
+    <script src="./jquery.js"></script>
+
+</head>
+    <body>
+            <table id="sampleTable" border="1">
+            <tr>
+            <td>Row1 cell1</td>
+            <td>Row1 cell2</td>
+            </tr>
+            <tr>
+            <td>Row2 cell1</td>
+            <td>Row2 cell2</td>
+            </tr>
+            </table><br>
+            <input type="button" onclick="insert_Row()" value="Insert row">
+    </body>
+    <script>
+        var count = 3;
+        function insert_Row(){
+            $("#sampleTable").append("<tr><td>Row"+(count)+" cell1</td><td>Row"+(count)+" cell2</td></tr> ");
+            count++;
+        }
+    </script>
+</html>

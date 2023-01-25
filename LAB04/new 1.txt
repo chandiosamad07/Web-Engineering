@@ -1,0 +1,98 @@
+//TASK 1
+
+let x = 5; //Integer variable
+let y = 6.5; // Float variable
+var YES = true; //Boolen variable
+var str1 = "Hello World"; //String variable
+var currentDate = new Date(); //returns date object of current date and time
+let count; //undefined
+let arr =[1,2,3,4,5] //Array of Integer
+var arrayString=["a","b", "c"] //Array of String
+var mixArray=[1,2,3,"a","b",'c',4,5]// Array of Mix Elements
+var p1 = { id:1, name:"abc" }
+
+var p2 = new Object();
+p2.name="samad";
+p2.id="12";
+console.log(p2);
+
+// TASK 2
+var abc=Number("12a12a");
+console.log(abc); // output is NAN means Not a Number
+
+var ab=Number("1212");
+console.log(ab);//output is 1212
+
+var ac=parseInt("12345.5");//parseInt Convert string value into integer
+console.log(ac);
+
+var ad=parseFloat("12.5 j");//parseInt Convert string value into integer
+console.log(ad);
+
+//TASK 3
+var myfuc = { id:1, name:"abc",age:19 };
+function check(object){
+for(let key in object){
+    if(typeof object[key] == "string"){
+        console.log(key);
+    }
+}
+}
+
+check(myfuc);
+//Task 4
+function Evenodd(number) {
+    if(number % 2 == 0) {
+        console.log("The number is even.");
+    }
+    
+    else {
+        console.log("The number is odd.");
+    }
+}
+//Evenodd(7);
+
+//Task 5
+
+function speedlimit(number) {
+    let penalty;
+    if(number  <= 70) {
+        console.log("Good safe Driving");
+    }
+    
+    else if (number >= 70 && number <=120) {
+        number=(number-70)/5;
+        parseInt(number);
+        if(number%1==0){
+            penalty=number;
+           
+        
+            console.log("speed limit crossed by penalty points "+penalty);
+        }  
+    }
+   else if(number>120){
+        number=(number-70)/5;
+        penalty=parseInt(number);
+        if(penalty>10){
+        console.log("license suspended");
+        }
+        else{
+            console.log("speed limit crossed by penalty points "+penalty);
+        }
+    
+}
+}
+speedlimit(121);
+
+function sum (object) {
+  var sum =object.reduce((partialSum,a) => partialSum + a,0);
+console.log(sum);
+}
+let a=[1,2,3]
+sum(a);
+
+//TASK 07
+function reverseString(str) {
+    return str;
+}
+reverseString("hello");

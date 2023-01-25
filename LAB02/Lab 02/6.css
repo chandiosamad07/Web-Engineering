@@ -1,0 +1,35 @@
+.block {
+    height: 150px;
+    width: 851px;
+    background-color: rgb(56, 129, 245);
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-left: 200px;
+    font-weight: 50px;
+}
+
+.text {
+    margin-top: 30px;
+    margin-left: 200px;
+    font-weight: 25px;
+}
+
+button {
+    color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    background-color: rgb(56, 129, 245);
+    display: inline-block;
+    padding: 10px 25px 10px 25px;
+    margin-bottom: 500px;
+    float: right;
+    position: absolute;
+    top: 10%;
+    right: 43%;
+}

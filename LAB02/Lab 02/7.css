@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.nav {
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.navlogo {
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 120px;
+}
+
+.div1 {
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 90px;
+}
+
+.div2 {
+    display: inline-block;
+    background-color: grey;
+    padding: 100px;
+    margin-left: 150px;
+    margin-top: 90px;
+    padding-left: 150px;
+    padding-right: 120px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 250px;
+}
+
+button {
+    position: absolute;
+    top: 62%;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+}

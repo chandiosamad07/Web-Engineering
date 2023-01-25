@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head><br>
+ <meta charset=utf-8 />
+ <title>Insert row in a table - w3resource</title>
+ <script>
+ function insert_Row()
+{
+    count=3;
+x=document.getElementById('sampleTable').insertRow(0);
+y = x.insertCell(0);
+z = x.insertCell(1);
+y.innerHTML="Inserted Cell"+count;
+z.innerHTML="Inserted Cell"+count;
+count+=1;
+}
+ </script>
+</head>
+<body>
+ <table id="sampleTable">
+ <tr>
+ <td>Row1 cell1</td>
+ <td>Row1 cell2</td>
+ </tr>
+ <tr>
+ <td>Row2 cell1</td>
+ <td>Row2 cell2</td>
+ </tr>
+ </table><br>
+ <input type="button" onclick="insert_Row()" value="Insert row">
+</body>
+</html>

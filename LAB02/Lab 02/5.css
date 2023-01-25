@@ -1,0 +1,89 @@
+    .border {
+        border-color: blue;
+        border-style: solid;
+        border: 10px solid blue;
+        width: 506px;
+        height: 410px;
+        display: inline-block;
+        /* box-sizing: border-box;*/
+    }
+    
+    .time {
+        display: inline-block;
+        margin-left: 160px;
+        background-color: skyblue;
+        color: rgb(4, 118, 246);
+        width: 125px;
+        margin-top: 15px;
+        padding: 7px 7px;
+        border-style: double;
+        border-color: skyblue;
+        text-align: center;
+        border-radius: 2px;
+    }
+    
+    .num {
+        background-color: rgb(46, 44, 44);
+        color: white;
+        margin: 20px;
+        letter-spacing: 3px;
+        border-style: square;
+    }
+    
+    .file {
+        width: 100%;
+    }
+    
+    .s1 {
+        border: 1px;
+        border-style: solid;
+        border-spacing: 10px;
+        background-color: rgb(238, 248, 254);
+        margin: 15px;
+        border-radius: 15px;
+        padding-left: 30px;
+    }
+    
+    .s2 {
+        border: 1px;
+        border-style: solid;
+        background-color: rgb(211, 237, 216);
+        margin: 15px;
+        border-radius: 15px;
+        padding-left: 30px;
+    }
+    
+    .s3 {
+        border: 1px;
+        border-style: solid;
+        background-color: rgb(250, 215, 220);
+        margin: 15px;
+        border-radius: 15px;
+        padding-left: 30px;
+    }
+    
+    .s4 {
+        border: 1px;
+        border-style: solid;
+        background-color: rgb(241, 248, 255);
+        margin: 15px;
+        border-radius: 15px;
+        padding-left: 30px;
+    }
+    
+    img {
+        float: right;
+        height: 25px;
+        width: 25px;
+    }
+    
+    .button {
+        background-color: rgb(4, 118, 246);
+        float: right;
+        border: none;
+        color: white;
+        text-align: center;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+    }

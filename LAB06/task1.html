@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset=utf-8 />
+ <title>Return first and last name from a form </title>
+<script language="javascript" type="text/javascript">
+function showAlert() {
+    Fname=document.getElementsByName("fname")[0].value;
+    Lname=document.getElementsByName("lname")[0].value;
+    
+    alert("First Name is "+Fname+"\nLast Name is "+Lname);
+}
+</script>
+
+ </head>
+<body>
+ <form id="form1" onsubmit="showAlert()">
+ First name:
+ <input type="text" id="firstname" name="fname" value="David"><br>
+ Last name:
+ <input type="text" id="lastname" name="lname" value="Beckham"><br>
+ <input type="button" value="Submit" onClick="showAlert()">
+ </form>
+</body>
+</html>

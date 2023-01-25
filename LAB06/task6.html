@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Document</title>
+
+</head>
+<body>
+ <div class="header">
+ </div>
+ <section id="container">
+ <ul>
+ <li class="first">one</li>
+ <li class="second">two</li>
+ <li class="third">three</li>
+ </ul>
+ <ol>
+ <li class="first">one</li>
+ <li class="second">two</li>
+ <li class="third">three</li>
+ </ol>
+ </section>
+ <div class="footer">
+ </div>
+ 
+ <script>
+     
+    document.getElementsById("#container").style.backgroundColor="balck";
+   
+    
+   var B = document.querySelector("#container").style.backgroundColor="gray";
+  
+    
+    document.getElementsByClassName("second").style.backgroundColor="pink";
+  
+    
+    document.querySelector("ol .third").style.backgroundColor="gray";
+  ;
+    
+    b = document.querySelector("#container");
+    b.innerText = "Hello";
+    
+    footer = document.querySelector(".footer");
+    footer.classList.add("main");
+    
+    footerRrmove = document.querySelector(".footer");
+    footerRrmove.classList.remove("main");
+    
+    newList = document.createElement("li");
+    
+    newList.innerText = "four";
+
+    list = document.querySelector("ul");
+    list.appendChild(newLi);
+
+    var liInsideOl = document.querySelectorAll("ol li");
+    for(var i = 0; i < liInsideOl.length; i++){
+    liInsideOl[i].style.backgroundColor = "green";
+    }
+
+    var footer = document.querySelector(".footer");
+    footer.remove();
+
+  
+</script>
+</body>
+</html>

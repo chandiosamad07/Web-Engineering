@@ -1,0 +1,47 @@
+ul.side {
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em
+	}
+	
+
+ h1 {
+	 text-align:left;
+	 color:black;
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif 
+		  
+	}
+  p{
+	  text-align:left;
+	  color:black;
+  }
+			  
+ul.side li {
+  background: white;
+  margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid green }
+ul.side a {
+    text-decoration: none }
+  a:link {
+    color:red; }
+  a:visited {
+    color:black; }
+	
+ address {
+	 color:black;
+	 text-align:left;
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted }
+
+.div1 {
+    width: 55%;
+    height: 500px;
+	position: absolute;
+    margin-left: 15%;
+    margin-top: 1.2%;	
+    float: right;
+text-align:center;}

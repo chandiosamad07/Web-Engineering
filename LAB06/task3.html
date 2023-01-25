@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset=utf-8 />
+<script>
+ function getAttributes()
+{
+ b = document.getElementById("w3r").href;
+c = document.getElementById("w3r").hreflang;  
+ d = document.getElementById("w3r").rel; 
+ e = document.getElementById("w3r").target;
+ f = document.getElementById("w3r").type;
+ 
+ document.writeln('The value of the href attribute of the link is : '+b);
+ document.writeln('The value of the hreflang attribute of the link is : '+c);
+ document.writeln('The value of the rel attribute of the link is : '+d);
+ document.writeln('The value of the taget attribute of the link is : '+e);
+ document.writeln('The value of the type attribute of the link is : '+f);  
+}
+</Script>
+</head>
+<body>
+ <p><a id="w3r" type="text/html" hreflang="en-us" rel="nofollow" target="_self"
+ href="http://www.w3resource.com/">w3resource</a></p>
+ <button onclick="getAttributes()">Click here to get attributes value</button>
+</body>
+</html>

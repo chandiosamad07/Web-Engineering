@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <script src="jquery.js"></script>
+</head>
+
+<body>
+    <p><a id="w3r" type="text/html" hreflang="en-us" rel="nofollow" target="_self"
+            href="http://www.w3resource.com/">Exercise</a></p>
+    <button onclick="getAttributes()">Click here to get attributes value</button>
+</body>
+<script>
+    function getAttributes() {
+        var link, rel, target, hreflang, type;
+        link = "Value of the href" + $("#w3r").attr("href");
+        hreflang = "Value of the hreflang" + $("#w3r").attr("hreflang");
+        rel = "Value of the rel" + $("#w3r").attr("rel");
+        target = "Value of the taget" + $("#w3r").attr("target");
+        type = "Value of the type" + $("#w3r").attr("type");
+        alert(link + "\n" + rel + "\n" + target + "\n" + hreflang + "\n" + type)
+
+    }
+</script>
+</html>

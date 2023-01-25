@@ -1,0 +1,31 @@
+.heading {
+    background-color: black;
+    color: white;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.row2 {
+    background-color: grey;
+    color: black;
+    word-spacing: 2px;
+}
+
+.row2:hover {
+    background-color: pink;
+}
+
+.row4 {
+    background-color: grey;
+    color: black;
+    word-spacing: 2px;
+}
+
+.row4:hover {
+    background-color: pink;
+}
+
+table {
+    height: 150px;
+    width: 600px;
+}

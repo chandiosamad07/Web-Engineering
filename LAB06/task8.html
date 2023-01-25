@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>task8 </title>
+<meta charset="windows-1252">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+function addRow()
+{
+var name = document.getElementById('name').value;
+var stdid = document.getElementById('id').value;
+var batch = document.getElementById('batch').value;
+var gpa = document.getElementById('gpa').value;
+var table = document.getElementsByTagName('table')[0];
+var newRow = table.insertRow(table.rows.length/2+1);
+
+var cel1 = newRow.insertCell(0);
+var cel2 = newRow.insertCell(1);
+var cel3 = newRow.insertCell(2);
+var cel4 = newRow.insertCell(3);
+
+cel1.innerHTML = name;
+cel2.innerHTML = stdid;
+cel3.innerHTML = batch;
+cel4.innerHTML = gpa;
+}
+</script>
+</head>
+<body>
+Name: <input type="text" name="name" id="name" /><br/><br/>
+Student ID:<input type="text" name="id" id="id" /><br/><br/>
+Batch: <input type="text" name="batch" id="batch" /><br/><br/>
+GPA:<input type="text" name="gpa" id="gpa" /><br/><br/>
+<button onclick="addRow();">Add to Table</button><br/><br/>
+<table border="1">
+<tr>
+<th id="stdn">Name</th>
+<th id="stdID">Student ID </th>
+<th id="stdbatch">Batch</th>
+<th id="stdgpa">GPA</th>
+</tr>
+</table>
+</body>
+</html>
